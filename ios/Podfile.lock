@@ -1,5 +1,9 @@
 PODS:
   - boost-for-react-native (1.63.0)
+  - CleverPush (1.22.5)
+  - cleverpush-react-native (1.4.10):
+    - CleverPush (~> 1.22.4)
+    - React
   - DoubleConversion (1.1.6)
   - EXApplication (4.0.2):
     - ExpoModulesCore
@@ -336,6 +340,8 @@ PODS:
   - Yoga (1.14.0)
 
 DEPENDENCIES:
+  - CleverPush
+  - cleverpush-react-native (from `../node_modules/cleverpush-react-native`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - EXApplication (from `../node_modules/expo-application/ios`)
   - EXConstants (from `../node_modules/expo-constants/ios`)
@@ -388,8 +394,11 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - boost-for-react-native
+    - CleverPush
 
 EXTERNAL SOURCES:
+  cleverpush-react-native:
+    :path: "../node_modules/cleverpush-react-native"
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
   EXApplication:
@@ -485,6 +494,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  CleverPush: a5896b9e2d7297a96e6578ecbf3ff9ca4a74335c
+  cleverpush-react-native: 0e61af7ecd9971ac01a9fcf1cf62b575eb40016f
   DoubleConversion: cf9b38bf0b2d048436d9a82ad2abe1404f11e7de
   EXApplication: 54fe5bd6268d697771645e8f1aef8b806a65247a
   EXConstants: 6d585d93723b18d7a8c283591a335609e3bc153e
@@ -532,6 +543,6 @@ SPEC CHECKSUMS:
   RNScreens: 6e1ea5787989f92b0671049b808aef64fa1ef98c
   Yoga: e6ecf3fa25af9d4c87e94ad7d5d292eedef49749
 
-PODFILE CHECKSUM: 7466841512c046b0bc8e8316d6b8ae1bbd4da1eb
+PODFILE CHECKSUM: b78ceb12f8b0177b702ac910d18377aa4b2c9da9
 
 COCOAPODS: 1.11.3

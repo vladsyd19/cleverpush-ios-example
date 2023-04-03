@@ -39,3 +39,15 @@ target 'cleverpushexpo43' do
   end
 
 end
+
+target 'CleverPushNotificationServiceExtension' do
+
+  pod 'CleverPush'
+
+end
+
+target 'CleverPushNotificationContentExtension' do
+
+  pod 'CleverPush'
+
+end

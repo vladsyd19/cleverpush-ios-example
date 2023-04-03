@@ -2577,6 +2577,13 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+cleverpush-react-native@^1.4.10:
+  version "1.4.10"
+  resolved "https://registry.yarnpkg.com/cleverpush-react-native/-/cleverpush-react-native-1.4.10.tgz#49f110b6669459fd91122638d9abcf18663bf45e"
+  integrity sha512-Kytq+qh66TMhmqnWVggGSMqUbYtxdPQGKfg5T5VRRRNNkNGQLgeTfsMnCHiA+2+WRN4G67KlixMl70ai4AovUg==
+  dependencies:
+    invariant "^2.2.2"
+
 cli-cursor@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
